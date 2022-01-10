@@ -6,7 +6,7 @@ public:
         vector<vector<int>> res;
         std::sort(nums.begin(), nums.end());
 
-        for (int i = 0; i < nums.size(); i++) {https://leetcode.com/problems/3sum/
+        for (int i = 0; i < nums.size(); i++) {
             if (i >= 1 && nums[i] == nums[i - 1]) continue;
             int target = -nums[i];
             int front = i + 1;
