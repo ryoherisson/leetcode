@@ -18,7 +18,6 @@ from typing import List
 #         return res
 
 
-
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         l, r = 0, 1
