@@ -8,7 +8,7 @@ class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         self.heapq = stones
 
-        self.heapq = list(map(lambda x : -x, self.heapq))
+        self.heapq = list(map(lambda x: -x, self.heapq))
 
         heapq.heapify(self.heapq)
 
