@@ -1,6 +1,4 @@
 # https://leetcode.com/problems/missing-number/
-
-from tkinter import N
 from typing import List
 
 
