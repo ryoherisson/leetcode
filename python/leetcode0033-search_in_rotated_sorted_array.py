@@ -15,7 +15,7 @@ class Solution:
             # left sorted portion
             if nums[l] <= nums[mid]:
                 if target > nums[mid] or target < nums[l]:
-                    left = mid + 1
+                    l = mid + 1
                 else:
                     r = mid - 1
 
